@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week 4 Game</title>
+		<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<h1>Programming Collector</h1>
+	<hr>
+	<h3>Rules</h3>
+	<div class="about-game"><br><p>You will be given a random number at the start of the game.<br><br>There are four programming languages below. By clicking on a programming language you will add a specific amount of points to your total score.<br><br>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.<br><br>The value of each programming language is hidden from you until you click on it.<br><br>Every time the game restarts, the game will change the values of each programming language.</p><br><br></div>
+
+    <h2><div class="underline-dubs-goal">This is the goal</div><entry id="randomNumber"></entry></h2><br>
+
+   	<h2><div class="underline-cats">Wins</div><entry id="numofWins"></entry></h2><br>
+   	<h2><div class="underline-cats">Losses</div><entry id="numofLosses"></entry></h2>
+   	<div class="icons">
+   		<img src="assets/images/Python-logo-notext.svg.png" width=100px id="python"></img>
+   		<img src="assets/images/Java_logo.png" width=117px id="java"></img>
+		<img src="assets/images/PHP-logo.svg.png" width=117px id="php"></img>
+		<img src="assets/images/ruby.png" width=100px id="ruby"></img>
+	</div>
+  	<h2><div class="scorekeeps">Total Score</div><entry id="totalScore"></entry></h2>
+
+	
+	<script src="assets/javascript/game.js"></script>
+</body>
+</html>
